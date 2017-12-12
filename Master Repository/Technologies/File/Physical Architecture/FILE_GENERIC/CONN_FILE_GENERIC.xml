@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="gKFCc+HBcllQ4eGado1G8g==" exportKeySalt="1fa4dba5-164a-4fa2-8037-72ccd16edbf6" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="/nd+qzta/diHffB/KAD38Q==" exportKeySalt="c0d8a7a0-ad4f-4a2a-8f3d-e835a5e0d1b6" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpConnect">
 		<Field name="AuthenMethod" type="java.lang.String">null</Field>
 	<Field name="BatchUpdateSize" type="com.sunopsis.sql.DbInt"><![CDATA[30]]></Field>
@@ -66,6 +66,14 @@
 	<Field name="ITxt" type="com.sunopsis.sql.DbInt"><![CDATA[4385]]></Field>
 	<Field name="ITxtOrig" type="com.sunopsis.sql.DbInt"><![CDATA[6]]></Field>
 	<Field name="Txt" type="java.lang.String"><![CDATA[jdbc:snps:dbfile]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpPschema]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[FILE_GENERIC.C:\SOURCE_FILES]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[555c0c3e-abd9-404c-92c7-2fbec0fb9dca]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[0ed0a346537ed09bb52f5b1b281aa2cf3953178a]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[PSC_FILE_GENERIC_C_SOURCE_FILES.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_TECHNO.16]]></Field>
