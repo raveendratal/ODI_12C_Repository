@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="lMPZhWNgqmoQeb0zPCKsVw==" exportKeySalt="0cc91989-6a16-49e6-add3-49f811e1955b" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="gdZiZFJ1VA4l/K0Deo+h6Q==" exportKeySalt="79da3227-a4b0-4c4e-ab5e-b19b2faaab92" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpTechno">
 		<Field name="CatalogTerm" type="java.lang.String">null</Field>
 	<Field name="ColAliasWord" type="java.lang.String">null</Field>
@@ -36,7 +36,7 @@
 	<Field name="GetSeqRequest" type="java.lang.String">null</Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[14d1db64-b833-3400-9ca6-595ffc963a64]]></Field>
 	<Field name="IndCatalog" type="java.lang.String"><![CDATA[0]]></Field>
-	<Field name="IndChange" type="java.lang.String"><![CDATA[I]]></Field>
+	<Field name="IndChange" type="java.lang.String"><![CDATA[U]]></Field>
 	<Field name="IndDserver" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndFileParam" type="java.lang.String"><![CDATA[1]]></Field>
 	<Field name="IndJoinCapMixed" type="java.lang.String"><![CDATA[0]]></Field>
@@ -73,7 +73,7 @@
 	<Field name="JoinOuterLoc" type="java.lang.String">null</Field>
 	<Field name="JoinOuterSide" type="java.lang.String">null</Field>
 	<Field name="JoinRightOut" type="java.lang.String">null</Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2017-12-06 10:35:05.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2017-12-09 22:21:03.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUNOPSIS_INSTALL]]></Field>
 	<Field name="LocObjPattern" type="java.lang.String"><![CDATA[%SCHEMA/%OBJECT]]></Field>
 	<Field name="LocSeqCurrPattern" type="java.lang.String">null</Field>
@@ -17022,8 +17022,16 @@
 	<Field name="SubType" type="java.lang.String">null</Field>
 	<Field name="Name" type="java.lang.String"><![CDATA[FILE_GENERIC]]></Field>
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[7cf66dba-3493-3ab1-81cc-6c13ebe03a8d]]></Field>
-	<Field name="Version" type="java.lang.String"><![CDATA[ca69a7064a5dcfe1772068df661d3be32c8334a3]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[2a81e38ec75f8a9242819a46f7c85b380bafb2b8]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[Physical Architecture/FILE_GENERIC/CONN_FILE_GENERIC.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[LS_FILE_SRC]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[760562e0-973e-4bc9-bbb5-b5f06cae0167]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[83371bcacd43b8ff4262a66e9f1cda9c542c1f26]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[Logical Architecture/LSC_LS_FILE_SRC.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
 		<Field name="Type" type="java.lang.String"><![CDATA[SnpLschema]]></Field>
