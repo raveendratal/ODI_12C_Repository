@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <SunopsisExport>
 <Admin RepositoryVersion="05.02.02.07" IsLegacyIdCompatible="false" />
-<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="RTJMG6Of7b+azJ0a/fsPlw==" exportKeySalt="71cc0b40-6cb6-49f1-88c6-66b6b5713c6f" containsCipherText="false"/>
+<Encryption algorithm="AES" keyLength="128" exportKeyHash="" keyVect="wQZ1VTj6E1BaBdb68hC2hw==" exportKeySalt="59e15524-b878-453c-b81c-02cc07469410" containsCipherText="false"/>
 <Object class="com.sunopsis.dwg.dbobj.SnpSubModel">
 		<Field name="CodSmod" type="java.lang.String"><![CDATA[DEFAULT]]></Field>
 	<Field name="FirstDate" type="java.sql.Timestamp"><![CDATA[2017-12-07 10:15:50.0]]></Field>
@@ -12,7 +12,7 @@
 	<Field name="IMod" type="com.sunopsis.sql.DbInt"><![CDATA[11]]></Field>
 	<Field name="ISmod" type="com.sunopsis.sql.DbInt"><![CDATA[12]]></Field>
 	<Field name="ISmodParent" type="com.sunopsis.sql.DbInt"><![CDATA[null]]></Field>
-	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2017-12-07 10:17:06.0]]></Field>
+	<Field name="LastDate" type="java.sql.Timestamp"><![CDATA[2017-12-12 07:54:38.0]]></Field>
 	<Field name="LastUser" type="java.lang.String"><![CDATA[SUPERVISOR]]></Field>
 	<Field name="RevApplyPattern" type="java.lang.String">null</Field>
 	<Field name="RevPatternOrder" type="java.lang.String">null</Field>
@@ -35,6 +35,38 @@
 	<Field name="GlobalId" type="java.lang.String"><![CDATA[0d5352f2-72fc-4e92-8bd3-8f5d3721f968]]></Field>
 	<Field name="Version" type="java.lang.String"><![CDATA[1db61302789e2a5623f1cd0c74c3b9c32a6a1a86]]></Field>
 	<Field name="Path" type="java.lang.String"><![CDATA[TAB_EMP.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[BONUS]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[a16e4721-d894-48c0-9f95-10694df917ad]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[530dcb6e5432f91ba96d5ce06860ae8a444bd715]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_BONUS.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[EMP1]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[e2a24bfd-3bd5-421b-a7c6-fcae0548bc2b]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[3ba3e69a90329f2d1758992571ff867c55c1fd99]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_EMP1.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[ENDTABLE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[bbb074d6-f423-434d-b58a-a28ce4f59e85]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[84f83eada044be0b9587bb5374b2d02b26b66816]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_ENDTABLE.xml]]></Field>
+</Object>
+<Object class="com.sunopsis.dwg.dbobj.SnpChildFCO">
+		<Field name="Type" type="java.lang.String"><![CDATA[SnpTable]]></Field>
+	<Field name="SubType" type="java.lang.String">null</Field>
+	<Field name="Name" type="java.lang.String"><![CDATA[SALGRADE]]></Field>
+	<Field name="GlobalId" type="java.lang.String"><![CDATA[6ee55108-fac5-4af7-bd23-4a2833ee0357]]></Field>
+	<Field name="Version" type="java.lang.String"><![CDATA[af5087f4d78bae1590554732248ec69de76c4ae9]]></Field>
+	<Field name="Path" type="java.lang.String"><![CDATA[TAB_SALGRADE.xml]]></Field>
 </Object>
 <Object class="com.sunopsis.dwg.dbobj.SnpFKXRef">
 		<Field name="RefKey" type="java.lang.String"><![CDATA[SNP_MODEL.11]]></Field>
